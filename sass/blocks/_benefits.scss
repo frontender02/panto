@@ -1,0 +1,38 @@
+.benefits {
+    padding: 120px 0;
+    padding: clamp(60px, 2.679rem + 5.36vw, 120px) 0;
+
+    &__grid {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 60px 20px;
+        gap: clamp(30px, 1.339rem + 2.68vw, 60px) 20px;
+
+        @include tablet(){
+            grid-template-columns: repeat(2,1fr);
+        }
+        @include mobile(){
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &__title {
+        max-width: 260px;
+    }
+}
+
+.benefit {
+
+    &__title {
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    &__text {
+        margin-bottom: 14px;
+        line-height: 185%;
+        opacity: 0.8;
+    }
+}

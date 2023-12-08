@@ -1,0 +1,24 @@
+// Fonts
+@import './../fonts/Gilroy/fonts.css';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@400;600&display=swap');
+// font-family: 'Gilroy', sans-serif;
+// font-family: 'Inter', sans-serif;
+// font-family: 'DM Sans', sans-serif;
+
+// Base
+@import './base/vars';
+@import './base/reset';
+@import './base/base';
+
+// Blocks
+@import './blocks/header';
+@import './blocks/nav';
+@import './blocks/search-form';
+@import './blocks/info-dot';
+@import './blocks/info-hint';
+@import './blocks/benefits';
+@import './blocks/products';
+@import './blocks/tab-controls';
+@import './blocks/card';
+@import './blocks/slider';
+@import './blocks/footer';
